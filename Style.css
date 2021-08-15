@@ -1,48 +1,54 @@
+
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
 body{
     text-decoration:  none;
     font-family: 'Trebuchet MS', sans-serif;
 }
 
 
-.header{
+.header1{
 
   width: 100%;
   height: 400px;
   box-sizing: border-box;
-  overflow: hidden;
-  background-image: url(header-background.jpeg);
+  background-image: url(img/header-background.jpeg);
+
+}
+
+.header2{
+
+  width: 100%;
+  height: 100px;
+  box-sizing: border-box;
+  background-image: url(img/header-background.jpeg);
 
 }
 
 .navbar{
 
   width: 100%;
-  display: flex;
   align-items: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  position: relative;
 }
 
-.my_photo{
-  width: 88px;
-  cursor: pointer;
-  margin: 10px 0;
-  margin-left: 10px;
-}
-
-nav{
-  flex: 1;
-  text-align: right;
-}
 
 nav ul li{
   list-style: none;
   display: inline-block;
-  margin-right: 25px;
-  font-size: 22px;
+  margin-right: 20px;
+  text-align: center;
+  margin-left: 18px;
 }
 
 nav ul li a{
   text-decoration: none;
-  font-size: 25px;
+  font-size: 30px;
   color: white;
 }
 
@@ -52,7 +58,7 @@ nav ul li a:hover{
 
 .line{
 
-  border: 10px solid hsl(348, 66%, 67%);
+  border: 10px solid hsl(349, 55%, 62%);
   border-radius: 5px;
 }
 
@@ -60,33 +66,31 @@ nav ul li a:hover{
 
   width: 100%;
   height: 250px;
-  box-sizing: border-box;
 }
 
 .word h1{
-
   position: relative;
-  top:100px;
-  left: 30px;
-  font-size: 55px;
-  margin-bottom: -15px;
+  top:150px;
+  font-size: 70px;
   color: white;
+  margin-left: 30px;
 }
 
 .word h2{
 
   position: relative;
-  top:100px;
-  left: 30px;
-  font-size: 30px;
+  top:150px;
+  font-size: 40px;
   color: white;
-
+  margin-left: 30px;
 }
 
 .content{
+    margin-top: 15px;
     margin-left: 30px;
     margin-right: 20px;
     font-size: 18px;
+    margin-bottom: 10px;
 
 }
 
@@ -252,7 +256,7 @@ nav ul li a:hover{
   width: 100px;
   height: 100px;
   position: relative;
-  top: 5%;
+  top: 10%;
   left: 35%;
   
 }
@@ -260,14 +264,14 @@ nav ul li a:hover{
 .p1{
   width: 250px;
   position: relative;
-  top: 4%;
+  top: 11%;
   left: 16%;
 
 }
 
 #Github{
   position: relative;
-  top: 10%;
+  top: 17%;
   left: 30%;
   
 }
@@ -275,13 +279,13 @@ nav ul li a:hover{
 .p2{
   width: 100px;
   position: relative;
-  top: 10%;
-  left: 40%;
+  top: 20%;
+  left: 31%;
 }
 
 #Phone{
   position: relative;
-  top: 18%;
+  top: 27%;
   left: 30%;
   
 }
@@ -290,7 +294,7 @@ nav ul li a:hover{
 
   width: 250px;
   position: relative;
-  top: 18%;
-  left: 16%;
+  top: 29%;
+  left: 20%;
 
 }
