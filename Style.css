@@ -398,3 +398,33 @@ article{
   font-weight: 600;
   margin-bottom: 20px;
 }
+
+/* project -- stock */
+
+.projects .project-stock{
+  width: 90%;
+  margin-left: 20px;
+  font-size: 16px;
+}
+
+.projects .project-stock h3{
+  margin-top: 40px;
+  text-align: center;
+  margin-bottom: 15px;
+
+}
+
+.projects .project-stock p{
+  margin-bottom: 15px;
+}
+
+.projects .project-stock ul li{
+
+  list-style: none;
+  margin-bottom: 10px;
+  
+}
+
+.projects .project-stock ul li strong{
+  font-size: 20px;
+}
