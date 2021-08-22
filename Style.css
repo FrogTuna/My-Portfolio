@@ -7,13 +7,10 @@
 }
 
 
-
-
 body{
     text-decoration:  none;
     font-family: 'Trebuchet MS', sans-serif;
 }
-
 
 
 /* header */
@@ -108,10 +105,6 @@ hr{
     font-size: 18px;
     margin-bottom: 10px;
 
-}
-
-.Github{
-  text-decoration: none;
 }
 
 /* Done */
@@ -229,32 +222,6 @@ footer section hr{
 
 /* contact page */
 
-.contact-header{
-
-  width: 100%;
-  height: 80px;
-  padding-top: 5%;
-  padding-left: 4%;
-  padding-right: 4%;
-  background-image: url(wall.jpg);
-
-}
-
-.contact-header h2{
-  float: right;
-  margin-top: 0px;
-  margin-right: 28%;
-  font-size: 45px;
-  color: white;
-
-}
-
-#back{
-
-  width: 35px;
-  height: 35px;
-  margin-top: 10px;
-}
 
 
 .email-Github-Phone{
@@ -321,8 +288,113 @@ article{
 
 }
 
-.work-img{
+.myself h2{
+  margin-top: 20px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+}
 
-  width: 100%;
+.myself .question-list{
+
+  margin-top: 30px;
+  margin-left: 20px;
+  list-style: none;
   
+}
+.myself .question-list li{
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.myself ul li span{
+  font-size: 18px;
+}
+
+.myself .hobby-list{
+  margin-left: 80px;
+}
+
+
+/* program skill */
+.progammingskill{
+  margin-top: 50px;
+  width: 90%;
+  margin-left: 15px;
+}
+
+.progammingskill h2{
+  font-weight: 600;
+  font-size: 40px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.progammingskill .bars{
+  margin-bottom: 20px;
+}
+
+.progammingskill .info{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.progammingskill span{
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.progammingskill .line{
+  height: 7px;
+  width: 100%;
+  background:lightgray;
+  position: relative;
+  
+
+}
+
+.progammingskill .line::before{
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 80%;
+  left:0;
+  top:0;
+  background: #E8637B;
+}
+
+.progammingskill .html::before{
+  width: 80%;
+}
+
+.progammingskill .css::before{
+  width: 40%;
+}
+
+.progammingskill .js::before{
+  width: 70%;
+}
+
+.progammingskill .c::before{
+  width: 90%;
+
+}
+
+.progammingskill .React::before{
+  width: 90%;
+}
+
+
+/* projects */
+.projects{
+  margin-top: 50px;
+}
+
+.projects h2{
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 20px;
 }
