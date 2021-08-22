@@ -284,7 +284,7 @@ footer section hr{
 article{
 
   width: 100%;
-  height: 2000px;
+  height: 3500px;
 
 }
 
@@ -411,20 +411,74 @@ article{
   margin-top: 40px;
   text-align: center;
   margin-bottom: 15px;
+  font-size: 22px;
 
+}
+
+.projects .project-stock img{
+  width: 100%;
 }
 
 .projects .project-stock p{
   margin-bottom: 15px;
+  font-size: 18px;
 }
 
 .projects .project-stock ul li{
 
   list-style: none;
   margin-bottom: 10px;
+  font-size: 18px;
   
 }
 
 .projects .project-stock ul li strong{
   font-size: 20px;
+}
+
+
+.projects .project-stock video{
+  width: 100%;
+  height: 200px;
+}
+
+/* project-2 tool library */
+.projects .project-tool{
+
+  margin-bottom: 20px;
+}
+
+.projects .project-tool h3{
+  margin-top: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 22px;
+}
+
+.projects .project-tool p{
+  width: 90%;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.projects .project-tool ul{
+  margin-top: 20px;
+}
+
+.projects .project-tool ul li strong{
+  font-size: 20px;
+}
+
+.projects .project-tool ul li{
+  margin-left: 20px;
+  list-style: none;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.projects .project-tool ul img{
+  width: 90%;
+  margin-left: 15px;
+
 }
