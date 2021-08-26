@@ -13,36 +13,18 @@ body{
 }
 
 
+
 /* header */
 
-.header1{
+header{
 
   width: 100%;
-  height: 400px;
+  height: 105px;
   box-sizing: border-box;
-  background-image: url(img/header-background.jpeg);
 
 }
 
-.header2{
-
-  width: 100%;
-  height: 100px;
-  box-sizing: border-box;
-  background-image: url(img/header-background.jpeg);
-
-}
-
-.header1 nav{
-
-  width: 100%;
-  align-items: center;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  position: relative;
-}
-
-.header2 nav{
+header nav{
 
   width: 100%;
   align-items: center;
@@ -57,12 +39,13 @@ nav ul li{
   display: inline-block;
   text-align: center;
   margin-left: 30px;
+  
 }
 
 nav ul li a{
   text-decoration: none;
   font-size: 30px;
-  color: white;
+  color:#E8637B;
 }
 
 nav ul li a:hover{
@@ -71,14 +54,18 @@ nav ul li a:hover{
 
 hr{
 
-  border: 10px solid hsl(349, 55%, 62%);
+  border: 10px solid hsl(348, 74%, 72%);
   border-radius: 5px;
 }
+
+
+/* HOME */
 
 .word{
 
   width: 100%;
-  height: 250px;
+  height: 320px;
+  background-image: url(img/header-background.jpeg);
 }
 
 .word h1{
@@ -106,10 +93,6 @@ hr{
     margin-bottom: 10px;
 
 }
-
-/* Done */
-
-
 
 .circle-1{
   width: 100%;
@@ -153,6 +136,7 @@ hr{
   padding-top: 10px;
   text-align: left;
 }
+
 
 
 /* Contact */
@@ -213,7 +197,7 @@ footer section{
 
 footer section hr{
 
-  border: 10px solid hsl(348, 100%, 89%);
+  border: 10px solid hsl(348, 74%, 72%);
   border-radius: 5px;
 
 } 
@@ -392,11 +376,17 @@ article{
   margin-top: 50px;
 }
 
-.projects h2{
+/* .projects h2{
+
+} */
+
+article h2{
   text-align: center;
   font-size: 40px;
   font-weight: 600;
   margin-bottom: 20px;
+  color: #e95c76;
+
 }
 
 /* project -- stock */
