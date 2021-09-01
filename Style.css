@@ -17,6 +17,9 @@ body{
 
 
 
+
+
+
 /* header */
 
 header{
@@ -66,6 +69,10 @@ hr{
 
 
 
+
+
+
+
 /* footer */
 
 footer section{
@@ -80,6 +87,9 @@ footer section hr{
   border-radius: 5px;
 
 } 
+
+
+
 
 
 
@@ -293,6 +303,10 @@ footer section hr{
 
 
 
+
+
+
+
 /* Work.html */
 
 article{
@@ -329,6 +343,10 @@ article{
 .myself .hobby-list{
   margin-left: 80px;
 }
+
+
+
+
 
 
 
@@ -422,6 +440,9 @@ article{
 
 
 
+
+
+
 /* projects */
 .projects{
   margin-top: 50px;
@@ -445,6 +466,13 @@ article strong{
 
   color: #E8637B;
 }
+
+
+
+
+
+
+
 
 
 
@@ -510,6 +538,8 @@ article strong{
 
 
 
+
+
 /* project-2 tool library */
 .projects .project-tool{
 
@@ -559,6 +589,9 @@ article strong{
   font-weight: 200;
   
 }
+
+
+
 
 
 
