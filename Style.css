@@ -112,17 +112,17 @@ hr{
   border-radius: 50px;
   background: #E8637B;
   position: absolute;
-  top: 0px;
+  top: 15px;
   left: 10px;
-  font-family: fantasy;
-  color:black;
-  font-size: 25px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 30px;
 
 }
 
 #circle-1-href{
   position: relative;
   top: 30px;
+  color: white;
 }
 
 .para-work {
@@ -137,6 +137,9 @@ hr{
   text-align: left;
 }
 
+.para-work ul{
+  margin-left: 20px;
+}
 
 
 /* Contact */
@@ -144,6 +147,7 @@ hr{
 .circle-2{
   width: 100%;
   height: 150px;
+  margin-top: 20px;
   position:relative;
   top: 14px;
   box-sizing: border-box;
@@ -161,15 +165,16 @@ hr{
   position: absolute;
   top: 0px;
   left: 10px;
-  font-family: fantasy;
+  font-family:Arial, Helvetica, sans-serif;
   color:black;
-  font-size: 25px;
+  font-size: 27px;
 
 }
 
 #circle-2-href{
   position: relative;
   top: 30px;
+  color: white;
 }
 
 #para-contact {
@@ -262,15 +267,15 @@ footer section hr{
 }
 
 
-
 /* Work.html */
 
 article{
 
   width: 100%;
-  height: 3500px;
+  height: 7000px;
 
 }
+
 
 .myself h2{
   margin-top: 20px;
@@ -313,6 +318,7 @@ article{
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   text-align: center;
   margin-bottom: 30px;
+  margin-top: 100px;
 }
 
 .progammingskill .bars{
@@ -389,6 +395,12 @@ article h2{
 
 }
 
+
+article strong{
+
+  color: #E8637B;
+}
+
 /* project -- stock */
 
 .projects .project-stock{
@@ -397,8 +409,12 @@ article h2{
   font-size: 16px;
 }
 
+.projects .project-stock h2{
+  margin-top: 100px;
+}
+
 .projects .project-stock h3{
-  margin-top: 40px;
+  margin-top: 50px;
   text-align: center;
   margin-bottom: 15px;
   font-size: 22px;
@@ -407,10 +423,10 @@ article h2{
 
 .projects .project-stock img{
   width: 100%;
+  margin-bottom: 50px;
 }
 
 .projects .project-stock p{
-  margin-bottom: 15px;
   font-size: 18px;
 }
 
@@ -427,28 +443,33 @@ article h2{
 }
 
 
-.projects .project-stock video{
-  width: 100%;
-  height: 200px;
+.projects .project-stock h4{
+
+  font-size: 22px;
+  font-weight: 200;
+
 }
+
+
 
 /* project-2 tool library */
 .projects .project-tool{
 
+  width: 90%;
+  margin-left: 20px;
+  font-size: 16px;
   margin-bottom: 20px;
 }
 
 .projects .project-tool h3{
-  margin-top: 50px;
+  margin-top: 100px;
   margin-bottom: 20px;
   text-align: center;
   font-size: 22px;
 }
 
 .projects .project-tool p{
-  width: 90%;
-  margin-left: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   font-size: 18px;
 }
 
@@ -461,14 +482,69 @@ article h2{
 }
 
 .projects .project-tool ul li{
-  margin-left: 20px;
   list-style: none;
   margin-bottom: 10px;
   font-size: 18px;
+  
 }
 
 .projects .project-tool ul img{
-  width: 90%;
-  margin-left: 15px;
+  width: 100%;
+  /* margin-left: 15px;s */
+  margin-bottom: 50px;
 
 }
+
+.projects .project-tool h4{
+
+  font-size: 22px;
+  font-weight: 200;
+  
+}
+
+
+
+/* Discount */
+
+.projects .project-discount{
+  width: 90%;
+  margin-left: 20px;
+  font-size: 16px;
+}
+.projects .project-discount h3{
+  margin-top: 100px;
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 22px;
+}
+
+.projects .project-discount p{
+  margin-left: 15px;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.projects .project-discount ul{
+  
+  list-style: none;
+  font-size: 20px;
+}
+
+.projects .project-discount ul img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-bottom: 60px;
+}
+
+.projects .project-discount ul li strong{
+  margin-bottom: 10px;
+}
+
+.projects .project-discount h4{
+
+  font-size: 22px;
+  font-weight: 200;
+}
+
