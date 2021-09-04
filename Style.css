@@ -312,7 +312,7 @@ footer section hr{
 article{
 
   width: 100%;
-  height: 7000px;
+  height: 7400px;
 
 }
 
@@ -458,6 +458,7 @@ article h2{
   font-weight: 600;
   margin-bottom: 20px;
   color: #e95c76;
+  margin-top: 100px;
 
 }
 
@@ -472,7 +473,9 @@ article strong{
 
 
 
-
+.projects .github-links{
+  margin-top: 60px;
+}
 
 
 
