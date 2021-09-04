@@ -75,6 +75,12 @@ hr{
 
 /* footer */
 
+footer{
+
+  width: 100%;
+  height: 100px;
+}
+
 footer section{
   position: relative;
   top: 0px;
@@ -87,6 +93,18 @@ footer section hr{
   border-radius: 5px;
 
 } 
+
+footer p{
+  text-align: center;
+}
+
+footer a{
+
+
+  width: 100%;
+  margin-left: 35%;
+  margin-right: 35%;
+}
 
 
 
