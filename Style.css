@@ -10,6 +10,7 @@
 body{
     text-decoration:  none;
     font-family: 'Trebuchet MS', sans-serif;
+
 }
 
 
@@ -194,7 +195,24 @@ footer a{
 
 .para-work ul{
   margin-left: 20px;
+  list-style: none
 }
+
+.para-work ul li::before {
+  content: "•"; 
+  color: #E8637B;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+
+}
+
+.para-work ul li a{
+  color: #E8637B;
+}
+
+
+
 
 
 .circle-2{
@@ -228,7 +246,7 @@ footer a{
   color: white;
 }
 
-#para-contact {
+.para-contact {
   width: 250px;
   height: 200px;
   flex: 1;
@@ -239,10 +257,26 @@ footer a{
   text-align: left;
 }
 
-#para-contact ul li{
+.para-contact ul{
+  list-style: none
+}
+
+.para-contact ul li{
   margin-left: 25px;
 }
 
+.para-contact ul li::before {
+  content: "•"; 
+  color: #E8637B;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+
+}
+
+.para-contact ul li a{
+  color: #E8637B;
+}
 
 
 
