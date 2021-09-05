@@ -18,9 +18,6 @@ body{
 
 
 
-
-
-
 /* header */
 
 header{
@@ -79,7 +76,7 @@ hr{
 footer{
 
   width: 100%;
-  height: 100px;
+  height: 120px;
 }
 
 footer section{
@@ -107,6 +104,26 @@ footer a{
   margin-right: 35%;
 }
 
+footer .footer-contact-icons{
+
+  margin-left: 30%;
+  /* margin-right: 35%; */
+}
+footer .footer-contact-icons img{
+  margin-top: 10px;
+  width: 30px;
+  height: 30px;
+
+}
+
+footer .footer-contact-icons ul{
+  list-style: none;
+}
+
+footer .footer-contact-icons ul li{
+  display: inline-block;
+  margin-right: 10px;
+}
 
 
 
@@ -286,69 +303,36 @@ footer a{
 
 
 
-
-
-
-
 /* contact page */
 
 .email-Github-Phone{
   width: 100%;
-  height: 800px;
+  height: 700px;
 
 }
 
-#Email{
-  width: 100px;
+
+.email-Github-Phone img{
+
+
   height: 100px;
   position: relative;
-  top: 10%;
-  left: 35%;
-  
+  margin-left: 35%;
+  margin-right: -150px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  align-items: center;
 }
 
-.email-text{
-  width: 250px;
+
+
+.email-Github-Phone p{
+  width: 100%;
   position: relative;
-  top: 11%;
-  left: 16%;
-
+  margin-bottom: 20px;
+  margin-top: -20px;
+  text-align: center;
 }
-
-#Github{
-  position: relative;
-  top: 17%;
-  left: 30%;
-  
-}
-
-.github-text{
-  width: 100px;
-  position: relative;
-  top: 20%;
-  left: 31%;
-}
-
-#Phone{
-  position: relative;
-  top: 27%;
-  left: 30%;
-  
-}
-
-.phone-text{
-
-  width: 250px;
-  position: relative;
-  top: 29%;
-  left: 20%;
-
-}
-
-
-
-
-
 
 
 
@@ -361,16 +345,36 @@ footer a{
 article{
 
   width: 100%;
-  height: 7400px;
+  height: 7600px;
 
 }
 
 
-.myself h2{
-  margin-top: 20px;
+article h2{
   text-align: center;
   font-size: 40px;
   font-weight: 600;
+  margin-bottom: 20px;
+  color: #e95c76;
+  margin-top: 100px;
+
+}
+
+
+article strong{
+
+  color: #E8637B;
+}
+
+
+
+
+
+/* Me */
+
+.myself h2{
+  margin-top: 20px;
+
 }
 
 .myself .question-list{
@@ -392,13 +396,6 @@ article{
 .myself .hobby-list{
   margin-left: 80px;
 }
-
-
-
-
-
-
-
 
 
 
@@ -481,202 +478,58 @@ article{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 /* projects */
+
 .projects{
-  margin-top: 50px;
+  width: 90%;
+  margin-left: 20px;
+  font-size: 16px;
 }
 
-/* .projects h2{
-
-} */
-
-article h2{
-  text-align: center;
-  font-size: 40px;
-  font-weight: 600;
-  margin-bottom: 20px;
-  color: #e95c76;
+.projects h2{
   margin-top: 100px;
-
 }
 
-
-article strong{
-
-  color: #E8637B;
+.projects h3{
+  margin-top: 120px;
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 22px;
 }
-
-
-
-.projects .github-links{
-  margin-top: 60px;
-}
-
-
-
-
-
-
-
-/* project -- stock */
 
 .projects .project-stock{
-  width: 90%;
-  margin-left: 20px;
-  font-size: 16px;
+  margin-top: -100px;
 }
 
-.projects .project-stock h2{
-  margin-top: 100px;
+.projects img{
+  width: 100%;
+  /* margin-bottom: 40px; */
 }
 
-.projects .project-stock h3{
+.projects p{
+  font-size: 18px;
+}
+
+.projects ul li{
+
+  list-style: none;
+  margin-bottom: 30px;
   margin-top: 50px;
-  text-align: center;
-  margin-bottom: 15px;
-  font-size: 22px;
-
-}
-
-.projects .project-stock img{
-  width: 100%;
-  margin-bottom: 50px;
-}
-
-.projects .project-stock p{
-  font-size: 18px;
-}
-
-.projects .project-stock ul li{
-
-  list-style: none;
-  margin-bottom: 10px;
   font-size: 18px;
   
 }
 
-.projects .project-stock ul li strong{
+.projects ul li strong{
   font-size: 20px;
 }
 
 
-.projects .project-stock h4{
+.projects h4{
 
+  margin-top: 40px;
   font-size: 22px;
   font-weight: 200;
 
-}
-
-
-
-
-
-
-
-
-
-
-
-
-/* project-2 tool library */
-.projects .project-tool{
-
-  width: 90%;
-  margin-left: 20px;
-  font-size: 16px;
-  margin-bottom: 20px;
-}
-
-.projects .project-tool h3{
-  margin-top: 100px;
-  margin-bottom: 20px;
-  text-align: center;
-  font-size: 22px;
-}
-
-.projects .project-tool p{
-  margin-bottom: 50px;
-  font-size: 18px;
-}
-
-.projects .project-tool ul{
-  margin-top: 20px;
-}
-
-.projects .project-tool ul li strong{
-  font-size: 20px;
-}
-
-.projects .project-tool ul li{
-  list-style: none;
-  margin-bottom: 10px;
-  font-size: 18px;
-  
-}
-
-.projects .project-tool ul img{
-  width: 100%;
-  /* margin-left: 15px;s */
-  margin-bottom: 50px;
-
-}
-
-.projects .project-tool h4{
-
-  font-size: 22px;
-  font-weight: 200;
-  
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* project -- 3   Discount */
-
-.projects .project-discount{
-  width: 90%;
-  margin-left: 20px;
-  font-size: 16px;
-}
-.projects .project-discount h3{
-  margin-top: 100px;
-  text-align: center;
-  margin-bottom: 15px;
-  font-size: 22px;
-}
-
-.projects .project-discount p{
-  margin-left: 5px;
-  font-size: 18px;
-  margin-bottom: 20px;
-}
-
-.projects .project-discount ul{
-  
-  list-style: none;
-  font-size: 20px;
 }
 
 .projects .project-discount ul img{
@@ -687,13 +540,5 @@ article strong{
   margin-bottom: 60px;
 }
 
-.projects .project-discount ul li strong{
-  margin-bottom: 10px;
-}
 
-.projects .project-discount h4{
-
-  font-size: 22px;
-  font-weight: 200;
-}
 
