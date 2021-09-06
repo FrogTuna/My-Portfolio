@@ -139,7 +139,7 @@ footer .footer-contact-icons ul li{
 
   width: 100%;
   height: 320px;
-  background-image: url(img/index-background.jpeg);
+  background-image: url(img/index/index-background.jpeg);
 }
 
 .img-indexheading h1{
@@ -192,10 +192,11 @@ footer .footer-contact-icons ul li{
 
 }
 
-#circle-1-href{
+#work-label span{
   position: relative;
   top: 30px;
   color: white;
+  text-decoration: none;
 }
 
 .para-work {
@@ -257,10 +258,11 @@ footer .footer-contact-icons ul li{
 
 }
 
-#circle-2-href{
+#contact-label span{
   position: relative;
   top: 30px;
   color: white;
+  text-decoration: none;
 }
 
 .para-contact {
@@ -294,6 +296,53 @@ footer .footer-contact-icons ul li{
 .para-contact ul li a{
   color: #E8637B;
 }
+
+
+
+.overview-projects-head{
+
+  width: 100%;
+  height: 220px;
+  background-image: url(img/index/index-image6.png);
+}
+
+.overview-projects-head h2{
+  position: relative;
+  padding-top: 80px;
+  padding-left: 30px;
+  color: white;
+  font-size:50px
+}
+
+.overview-projects{
+  width: 100%;
+  height: 1500px;
+
+}
+
+.overview-projects img{
+  margin-top: 50px;
+  width: 90%;
+  height: 400px;
+  align-items: center;
+  margin-left: 15px;
+}
+
+
+
+.overview-projects a{
+  color: #E8637B;
+  font-size: larger;
+  text-align: right;
+}
+
+.overview-projects h3{
+  margin-right: 20px;
+  margin-top: -20px;
+}
+
+
+
 
 
 
@@ -342,15 +391,15 @@ footer .footer-contact-icons ul li{
 
 /* Work.html */
 
-article{
+.Work-article{
 
   width: 100%;
-  height: 7600px;
+  height: 7700px;
 
 }
 
 
-article h2{
+.Work-article h2{
   text-align: center;
   font-size: 40px;
   font-weight: 600;
@@ -361,7 +410,7 @@ article h2{
 }
 
 
-article strong{
+.Work-article strong{
 
   color: #E8637B;
 }
@@ -532,6 +581,8 @@ article strong{
 
 }
 
+
+
 .projects .project-discount ul img{
   display: block;
   margin-left: auto;
@@ -540,5 +591,16 @@ article strong{
   margin-bottom: 60px;
 }
 
+.projects .github-links .work-back{
+  margin-top: 50px;
+  text-align: right;
+  color: #E8637B;
+}
+
+
+.projects .github-links .work-back h5{
+  font-size: x-large;
+  color: #E8637B;
+}
 
 
