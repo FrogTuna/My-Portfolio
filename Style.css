@@ -58,7 +58,7 @@ nav ul li a:hover{
 
 hr{
 
-  border: 10px solid hsl(348, 74%, 72%);
+  border: 10px solid hsl(348, 91%, 79%);
   border-radius: 5px;
 }
 
@@ -87,7 +87,7 @@ footer section{
 
 footer section hr{
 
-  border: 10px solid hsl(348, 74%, 72%);
+  border: 10px solid hsl(348, 91%, 79%);
   border-radius: 5px;
 
 } 
@@ -170,7 +170,7 @@ footer .footer-contact-icons ul li{
 
 }
 
-.circle-1{
+.circle{
   width: 100%;
   height: 140px;
   position:relative;
@@ -180,7 +180,7 @@ footer .footer-contact-icons ul li{
 
 }
 
- #work-label {
+ #circle-label {
   width: 100px;
   height: 100px;
   border-radius: 50px;
@@ -189,18 +189,18 @@ footer .footer-contact-icons ul li{
   top: 15px;
   left: 10px;
   font-family:Arial, Helvetica, sans-serif;
-  font-size: 30px;
+  font-size: 25px;
 
 }
 
-#work-label span{
+#circle-label span{
   position: relative;
   top: 30px;
   color: white;
   text-decoration: none;
 }
 
-.para-work {
+.index-paragraph-circle {
   width: 250px;
   height: 100px;
   flex: 1;
@@ -212,12 +212,12 @@ footer .footer-contact-icons ul li{
   text-align: left;
 }
 
-.para-work ul{
+.index-paragraph-circle ul{
   margin-left: 20px;
   list-style: none
 }
 
-.para-work ul li::before {
+.index-paragraph-circle ul li::before {
   content: "•"; 
   color: #E8637B;
   display: inline-block; 
@@ -226,80 +226,13 @@ footer .footer-contact-icons ul li{
 
 }
 
-.para-work ul li a{
+.index-paragraph-circle ul li a{
   color: #E8637B;
 }
 
 
 
-
-
-.circle-2{
-  width: 100%;
-  height: 150px;
-  margin-top: 20px;
-  position:relative;
-  top: 14px;
-  box-sizing: border-box;
-  text-align: center;
-
-}
-
- #contact-label {
-  width: 100px;
-  height: 100px;
-  border-radius: 50px;
-  background: #E8637B;
-  position: absolute;
-  top: 0px;
-  left: 10px;
-  font-family:Arial, Helvetica, sans-serif;
-  color:black;
-  font-size: 27px;
-
-}
-
-#contact-label span{
-  position: relative;
-  top: 30px;
-  color: white;
-  text-decoration: none;
-}
-
-.para-contact {
-  width: 250px;
-  height: 200px;
-  flex: 1;
-  font-family:inherit;
-  color:black;
-  font-size: 16px;
-  padding-left: 120px;
-  text-align: left;
-}
-
-.para-contact ul{
-  list-style: none
-}
-
-.para-contact ul li{
-  margin-left: 25px;
-}
-
-.para-contact ul li::before {
-  content: "•"; 
-  color: #E8637B;
-  display: inline-block; 
-  width: 1em;
-  margin-left: -1em;
-
-}
-
-.para-contact ul li a{
-  color: #E8637B;
-}
-
-
-
+/* overview-projeact */
 .overview-projects-head{
 
   width: 100%;
@@ -360,13 +293,13 @@ footer .footer-contact-icons ul li{
   height: 60px;
   font-size: 45px;
   color: white;
-  background-image: url(img/heading-image.png);
+  background-color: #f8b1c8;
 
 }
 
 
 
-.email-github-phone img{
+.contact-article .email-github-phone ul li img{
 
 
   height: 100px;
@@ -380,7 +313,7 @@ footer .footer-contact-icons ul li{
 
 
 
-.email-github-phone p{
+.contact-article .email-github-phone ul li p{
   width: 100%;
   position: relative;
   margin-bottom: 20px;
@@ -410,7 +343,7 @@ footer .footer-contact-icons ul li{
   height: 60px;
   font-size: 45px;
   color: white;
-  background-image: url(img/heading-image.png);
+  background-color: #f8b1c8;
 
 }
 
