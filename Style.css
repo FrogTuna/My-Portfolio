@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Glory:wght@500&display=swap');
 /* whole body */
 
 *{
@@ -9,11 +9,10 @@
 
 body{
     text-decoration:  none;
-    font-family: 'Trebuchet MS', sans-serif;
+    font-family: 'Glory', sans-serif;
+    font-size: 20px;
 
 }
-
-
 
 
 
@@ -23,42 +22,47 @@ body{
 header{
 
   width: 100%;
-  height: 105px;
+  height:100px;
   box-sizing: border-box;
 
+
 }
 
-header nav{
+header ul {
+  list-style-type: none;
 
-  width: 100%;
-  align-items: center;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  position: relative;
+
 }
 
+header ul li {
+  margin-left: 38px;
+   display: inline-block;
+   font-size: 30px;
+   margin-top: 20px;
+   
+}
 
-nav ul li{
-  list-style: none;
-  display: inline-block;
+header ul li a {
+
+  color: white;
   text-align: center;
-  margin-left: 30px;
-  
-}
-
-nav ul li a{
   text-decoration: none;
-  font-size: 30px;
-  color:#E8637B;
+  color: #e95c76;
 }
 
-nav ul li a:hover{
-  color: #E8637B;
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
 }
+
+.active {
+  text-decoration: underline;
+}
+
 
 hr{
-
-  border: 10px solid hsl(348, 91%, 79%);
+  margin-top: 26px;
+  border: 10px solid #f3748b;
   border-radius: 5px;
 }
 
@@ -79,51 +83,35 @@ footer{
   height: 120px;
 }
 
-footer section{
-  position: relative;
-  top: 0px;
 
-}
 
-footer section hr{
+footer hr{
 
-  border: 10px solid hsl(348, 91%, 79%);
+  border: 10px solid #E8637B;
   border-radius: 5px;
 
 } 
 
 footer p{
+  margin-top: 10px;
   text-align: center;
 }
 
-footer a{
+footer ul{
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 80px;
+}
 
+footer li{
 
   width: 100%;
-  margin-left: 35%;
-  margin-right: 35%;
+  display: inline;
+  margin-left: 25px;
+  align-items: center;
 
-}
 
-footer .footer-contact-icons{
 
-  margin-left: 30%;
-  /* margin-right: 35%; */
-}
-footer .footer-contact-icons img{
-  margin-top: 10px;
-  width: 30px;
-  height: 30px;
-
-}
-
-footer .footer-contact-icons ul{
-  list-style: none;
-}
-
-footer .footer-contact-icons ul li{
-  display: inline-block;
-  margin-right: 10px;
 }
 
 
@@ -140,7 +128,8 @@ footer .footer-contact-icons ul li{
 
   width: 100%;
   height: 320px;
-  background-image: url(img/index/index-background.jpeg);
+  background-image: url(img/index/Index-heading.jpeg);
+
 }
 
 .img-indexheading h1{
@@ -149,6 +138,7 @@ footer .footer-contact-icons ul li{
   font-size: 70px;
   color: white;
   margin-left: 30px;
+
 }
 
 .img-indexheading h2{
@@ -167,7 +157,7 @@ footer .footer-contact-icons ul li{
     margin-right: 20px;
     font-size: 18px;
     margin-bottom: 10px;
-
+    line-height: 24px;
 }
 
 .circle{
@@ -191,6 +181,7 @@ footer .footer-contact-icons ul li{
   font-family:Arial, Helvetica, sans-serif;
   font-size: 25px;
 
+
 }
 
 #circle-label span{
@@ -210,6 +201,7 @@ footer .footer-contact-icons ul li{
   padding-left: 120px;
   padding-top: 10px;
   text-align: left;
+  line-height: 18px;
 }
 
 .index-paragraph-circle ul{
@@ -237,15 +229,16 @@ footer .footer-contact-icons ul li{
 
   width: 100%;
   height: 220px;
-  background-image: url(img/heading-image.png);
+  margin-top: 50px;
+  background-image: url(img/index/overview-heading.png);
 }
 
 .overview-projects-head h2{
   position: relative;
   padding-top: 80px;
-  padding-left: 30px;
+  padding-left: 50px;
   color: white;
-  font-size:50px
+  font-size:50px;
 }
 
 .overview-projects{
@@ -282,18 +275,19 @@ footer .footer-contact-icons ul li{
 /* Contact */
 .contact-article{
   width: 100%;
-  height: 700px;
+  height: 2150px;
 }
 
 
 .contact-article h1{
 
   text-align: center;
-  width: 100%;
+  max-width: 100%;
   height: 60px;
-  font-size: 45px;
+  font-size: 50px;
   color: white;
-  background-color: #f8b1c8;
+  background-image: url(img/contact/heading-background.jpeg);
+  padding: 2em;
 
 }
 
@@ -307,7 +301,7 @@ footer .footer-contact-icons ul li{
   margin-left: 35%;
   margin-right: -150px;
   margin-bottom: 40px;
-  margin-top: 40px;
+  margin-top: 80px;
   align-items: center;
 }
 
@@ -322,7 +316,24 @@ footer .footer-contact-icons ul li{
 }
 
 
+.contact-article .reference h2{
+  text-align: center;
+  font-size: 50px;
+  padding: 80px;
+  background-image: url(img/contact/reference-background.jpeg);
+  margin-top: 80px;
+  color: white;
+}
 
+.contact-article .reference ul li p{
+  width: 90%;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.contact-article .reference ul li strong{
+  color: #E8637B;
+}
 
 
 
@@ -332,18 +343,20 @@ footer .footer-contact-icons ul li{
 .work-article{
 
   width: 100%;
-  height: 7450px;
+  height: 7700px;
+  line-height: 25px;
 
 }
 
 .work-article h1{
 
   text-align: center;
-  width: 100%;
+  max-width: 100%;
   height: 60px;
-  font-size: 45px;
+  font-size: 60px;
   color: white;
-  background-color: #f8b1c8;
+  background-image: url(img/work/work-heading.jpeg);
+  padding: 2em;
 
 }
 
